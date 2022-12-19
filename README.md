@@ -5,7 +5,7 @@
 
 ## Group : Lausanne
 
-2
+Lorenzo Mireille
 ## Project : Detecting the difficulty level of French texts
 ---
 
