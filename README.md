@@ -20,6 +20,7 @@ You can find all information and rules on this link:[https://www.kaggle.com/t/26
 - id: Numerical identifier of the sentence.
 - sentence: A sentence in French for which you want to predict the difficulty level.
 - difficulty: The difficulty level of the sentence (from A1 to C2). This column would be your target variable.
+- oe_difficulty: this is a column obtained by ordinal encoding the data of the difficultty column. Let's precise that we hav'nt really used it at the end.
 
   We can upload them from github Data folder or you can use directly the Kaggle API and your Kaggle credentials(we will see in the code how to do it).
 
