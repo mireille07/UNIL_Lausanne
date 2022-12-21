@@ -13,13 +13,13 @@ You can find more the information and rules on this link:[https://www.kaggle.com
 
 
 ## Dataset Description
--training_data.csv - the training set (with sentence and respective difficulty)
--unlabelled_test_data.csv - the test set (with just sentence)
--sample_submission.csv - a sample submission file in the correct format (with just difficulty)
+- training_data.csv -> the training set (with sentence and respective difficulty)
+- unlabelled_test_data.csv -> the test set (with just sentence)
+- sample_submission.csv -> a sample submission file in the correct format (with just difficulty)
 ### Columns
--id: Numerical identifier of the sentence.
--sentence: A sentence in French for which you want to predict the difficulty level.
--difficulty: The difficulty level of the sentence (from A1 to C2). This column would be your target variable.
+- id: Numerical identifier of the sentence.
+- sentence: A sentence in French for which you want to predict the difficulty level.
+- difficulty: The difficulty level of the sentence (from A1 to C2). This column would be your target variable.
 
 we can upload them from github Data folder or you can use directly the Kaggle API and your Kaggle credentials(we will see in the code how to do it)
 
