@@ -26,7 +26,7 @@ You can find all information and rules on this link:[https://www.kaggle.com/t/26
 ## Approach
 ### 1) Installing the necessary packages 
 -for language support spacy, nltk 
--for modelling pandas, numpy, sklearn...
+-for modelling pandas, numpy, sklearn, etc...
 -if we want to read data into our notebook with the Kaggle API there are some passage to do
 ### 2) data analysis and preparation
 The dataset doesn't have missing value and there are more or less the same number fo elements for each class. We just need to transform the level difficulty to read it, so we encode [difficulty] with an ordinal encoder.
