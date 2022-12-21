@@ -34,8 +34,16 @@ The dataset doesn't have missing value and there are more or less the same numbe
   {A1,A2,B1,B2,C1,C2}->{0,1,2,3,4,5}
 ### 3) Model without cleaning
 We implement the models show in class without cleaning. We use a Tf-idf vectorizer and do hyperparameter tuning to find the best hyperparameter and check the results obtained.
+
+  ###Our results Without Data cleaning 
+  
+  
 ### 4) Cleaning data
 This time we clean data: remove punctuation, tokenisation, lemmatisation\stemming, vectorization
 we did try different approach, on the code we delete the bad one and left the best one.
 ### 5) Submission
 We use our best model with the cleaned sentence of file 'unlabelled_test_dat.cvs', then we need to decode our result {0,1,2,3,4,5}->{A1,A2,B1,B2,C1,C2} same format as in the file 'sample_submission.cvs', download in csv format and submit in Kaggle.
+
+### 6) Our results
+
+    # - Without Data cleaning 
