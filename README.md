@@ -9,7 +9,7 @@ partcipants: Mireille Adjaoute and Lorenzo Corno
 ## Description : 
 As described above in the project 's Title, the main goal of this Kaggle competition is to predict the difficulty level of a french text according to the The Common European Framework of Reference for Languages that describes 6 level of language : A1, A2, B1, B2, C1, C2.
 
-You can find more the information and rules on this link:[https://www.kaggle.com/t/2607091ee16a4341bf1e8deaeeabab2a]
+You can find all information and rules on this link:[https://www.kaggle.com/t/2607091ee16a4341bf1e8deaeeabab2a]
 
 
 ## Dataset Description
@@ -21,7 +21,7 @@ You can find more the information and rules on this link:[https://www.kaggle.com
 - sentence: A sentence in French for which you want to predict the difficulty level.
 - difficulty: The difficulty level of the sentence (from A1 to C2). This column would be your target variable.
 
-we can upload them from github Data folder or you can use directly the Kaggle API and your Kaggle credentials(we will see in the code how to do it)
+  We can upload them from github Data folder or you can use directly the Kaggle API and your Kaggle credentials(we will see in the code how to do it)
 
 ## Approach
 ### 1) Installing the necessary packages 
