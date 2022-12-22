@@ -42,14 +42,12 @@ You can find all information and rules on this Kaggle link:[https://www.kaggle.c
   - Decision tree
   - Random Forest models.
 
-### 3- data analysis and preparation
-The dataset doesn't have missing value and there are more or less the same number fo elements for each class. We first encode the column [difficulty] of the training dataFrame, with an ordinal encoder.
-  {A1,A2,B1,B2,C1,C2}->{0,1,2,3,4,5}
+
   
   But afterward we notice thatthere were no use for that in our analyses
-### 4- Model without cleaning
+### 3- Model without cleaning
 We implement the models show in class without cleaning. We use a Tf-idf vectorizer and do hyperparameter tuning to find the best hyperparameter and check the results obtained.
-### 5- Cleaning data
+### 4- Cleaning data
 This time we clean data by: 
 - Remove punctuation
 - Remove stop word
@@ -83,10 +81,10 @@ we did try different approach to see the best combination which lead us not to r
 | KNN Model                   | 0.412903      |	0.418594      | 0.408406      | 0.418750   |
 
 
-### 6- Submission
-We use our best model with the cleaned sentence of file 'unlabelled_test_dat.cvs', then we need to decode our result {0,1,2,3,4,5}->{A1,A2,B1,B2,C1,C2} same format as in the file 'sample_submission.cvs', download in csv format and submit on Kaggle with an accuracy of 0.45.
+### 4- Submission
+We use our best model on the cleaned sentence of file 'unlabelled_test_dat.cvs', convert it inthe same format as in the file 'sample_submission.cvs', download in csv format and submit on Kaggle with an accuracy of 0.45.
 
-### 7- Model Improvement:
+### 6- Model Improvement:
 Many are the ways to improve the accuracy of a model,
 in our case , we choose the Principal Component Analysis (PCA) which for some unknown reason didn't improve our model.
 then We tried the Bert Model from HuggigngFace...
