@@ -58,6 +58,31 @@ This time we clean data by:
 - Vectorization
 we did try different approach to see the best combination which lead us not to remove the stop word anymore since some sentences are short.
 
+### Result without Data cleaning : 
+
+|Models                       | Precision     | First Header  | Second Header |First Header|
+| --------------------------- | ------------- | ------------- |-------------- |------------|
+| Logisitc Regression         | 0.475666      | 0.479224	     | 0.474447      | 0.478125   |
+| Random Forest               | 0.416684      | 0.416253	     | 0.401491      | 0.413542   |
+| Decision tree Improvement	  | 0.314862      | 0.315516      | 0.311864	     | 0.315625   |
+| Decision tree               | 0.301306      | 0.300758      | 0.298111      | 0.301042   |
+| KNN Model                   | 0.419700      |	0.354327      | 0.345031      | 0.354167   |
+
+
+
+
+
+
+### Result with Data cleaning : 
+
+|Models                       | Precision     | First Header  | Second Header |First Header|
+| --------------------------- | ------------- | ------------- |-------------- |------------|
+| Logisitc Regression         | 0.501281      | 0.504158	     | 0.499639      | 0.503125   |
+| Random Forest               | 0.437922      | 0.420731      | 0.400117      | 0.419792   |
+| Decision tree            	  | 0.323231      | 0.315516      | 0.323665      | 0.327083   |
+| KNN Model                   | 0.412903      |	0.418594      | 0.408406      | 0.418750   |
+
+
 ### 6- Submission
 We use our best model with the cleaned sentence of file 'unlabelled_test_dat.cvs', then we need to decode our result {0,1,2,3,4,5}->{A1,A2,B1,B2,C1,C2} same format as in the file 'sample_submission.cvs', download in csv format and submit on Kaggle with an accuracy of 0.45.
 
