@@ -47,7 +47,7 @@ You can find all information and rules on this Kaggle link:[https://www.kaggle.c
   But afterward we notice thatthere were no use for that in our analyses
 ### 3- Model without cleaning
 We implement the models show in class without cleaning. We use a Tf-idf vectorizer and do hyperparameter tuning to find the best hyperparameter and check the results obtained.
-### 4- Cleaning data
+### 4- Model with Cleaning data
 This time we clean data by: 
 - Remove punctuation
 - Remove stop word
