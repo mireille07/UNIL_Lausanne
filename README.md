@@ -14,6 +14,9 @@ As described above in the project 's Title, the main goal of this Kaggle competi
 
 You can find all information and rules on this Kaggle link:[https://www.kaggle.com/t/2607091ee16a4341bf1e8deaeeabab2a]
 
+##Our Youtube Video 
+%%HTML
+<iframe width="560" height="340" src="https://www.youtube.com/embed/inN8seMm7UI">iframe>
 
 ## Dataset Description
 - training_data.csv -> the training set (with sentence and respective difficulty)
@@ -59,6 +62,9 @@ We use our best model with the cleaned sentence of file 'unlabelled_test_dat.cvs
 
 ### 7- Model Improvement:
 
-    Many are the ways to improve the accuracy of a model, in our case , we went for the Principal Component Analysis (PCA) which for some unknown reason didn't improve our model.
-then We tried the Bert Model from HuggigngFace...
+    Many are the ways to improve the accuracy of a model,
+    in our case , we choose the Principal Component Analysis (PCA) which for some unknown reason didn't improve our model.
+    then We tried the Bert Model from HuggigngFace...
+    
+   
 
