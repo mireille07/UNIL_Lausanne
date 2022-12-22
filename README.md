@@ -77,7 +77,8 @@ We use our best model on the cleaned sentence of file 'unlabelled_test_dat.cvs',
 ### 6- Model Improvement:
 
 Many are the ways to improve the accuracy of a model, for this competition we propose two other methods:
-The Principal Component Analysis (PCA) which for some unknown reason didn't improve our model. After we tried the Bert Model from HuggigngFace which gave us a slight improvement.(you can find two others notebook in the code folder)
+The Principal Component Analysis (PCA) which for some unknown reason didn't improve our model. After we tried the Bert Model from HuggigngFace which gave us a slight improvement.
+You can find them in the CODE folder 'Lausanne_PCA.ipynb', 'Lausanne_bert.ipynb'.
     
    
 
