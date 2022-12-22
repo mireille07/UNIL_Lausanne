@@ -28,7 +28,7 @@ You can find all information and rules on this Kaggle link:[https://www.kaggle.c
   We can upload them from github Data folder or you can use directly the Kaggle API and your Kaggle credentials(we will see in the code how to do it).
 
 ## Approach
-### 1) Installing the necessary packages 
+### 1- Installing the necessary packages 
 -for language support spacy, nltk 
 -for modelling pandas, numpy, sklearn, etc...
 ### 2- Models
