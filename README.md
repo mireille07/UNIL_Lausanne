@@ -14,9 +14,9 @@ As described above in the project 's Title, the main goal of this Kaggle competi
 
 You can find all information and rules on this Kaggle link:[https://www.kaggle.com/t/2607091ee16a4341bf1e8deaeeabab2a]
 
-## Our Youtube Video 
+## Our Youtube Video (Click on the icon)
 
-[![Watch the video](https://i.pinimg.com/originals/31/23/9a/31239a2f70e4f8e4e3263fafb00ace1c.png)](https://youtu.be/HEMvWrY_owM)
+[![Watch the video](https://2.bp.blogspot.com/-8AHOEYb6eJU/WIlfMd0Kp9I/AAAAAAAAFL0/735baIugAikCCQM-MIAAC038_H6JX2PSwCLcB/s1600/youtube.png)](https://youtu.be/HEMvWrY_owM)
 
 
 ## Dataset Description
