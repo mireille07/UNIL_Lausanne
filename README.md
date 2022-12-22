@@ -72,11 +72,12 @@ we did try different approach to see the best combination which lead us not to r
 
 
 ### 4- Submission
-We use our best model on the cleaned sentence of file 'unlabelled_test_dat.cvs', convert it in the same format as in the file 'sample_submission.cvs', download in csv format and submit on Kaggle with an accuracy of 0.45.
+We use our best model on the cleaned sentence of file 'unlabelled_test_dat.cvs', convert it in the same format as in the file 'sample_submission.cvs', download in csv format and submit on Kaggle(it gave us a score of 0.45583).
 
 ### 6- Model Improvement:
 
-Many are the ways to improve the accuracy of a model, in this competition, we chose the Principal Component Analysis (PCA) which for some unknown reason didn't improve our model. After we tried the Bert Model from HuggigngFace which gave us a slight improvement.(find two others notebook with the ipmproved model)
+Many are the ways to improve the accuracy of a model, for this competition we propose two other methods:
+The Principal Component Analysis (PCA) which for some unknown reason didn't improve our model. After we tried the Bert Model from HuggigngFace which gave us a slight improvement.(you can find two others notebook in the code folder)
     
    
 
