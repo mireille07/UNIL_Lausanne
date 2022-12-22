@@ -87,10 +87,9 @@ we did try different approach to see the best combination which lead us not to r
 We use our best model with the cleaned sentence of file 'unlabelled_test_dat.cvs', then we need to decode our result {0,1,2,3,4,5}->{A1,A2,B1,B2,C1,C2} same format as in the file 'sample_submission.cvs', download in csv format and submit on Kaggle with an accuracy of 0.45.
 
 ### 7- Model Improvement:
-
-    Many are the ways to improve the accuracy of a model,
-    in our case , we choose the Principal Component Analysis (PCA) which for some unknown reason didn't improve our model.
-    then We tried the Bert Model from HuggigngFace...
+Many are the ways to improve the accuracy of a model,
+in our case , we choose the Principal Component Analysis (PCA) which for some unknown reason didn't improve our model.
+then We tried the Bert Model from HuggigngFace...
     
    
 
